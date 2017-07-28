@@ -1,0 +1,80 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  background: #222;
+  -webkit-font-smoothing: antialiased;
+  font: 18px 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+#logo {
+  margin: 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  opacity: 0.3;
+  transition: opacity .5s;
+}
+
+section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content {
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  background-size: 50% 50%;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  display: flex;
+  transition: background-color .5s;
+}
+
+.content h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 38px;
+  letter-spacing: 3.8px;
+  transition: letter-spacing 0.5s;
+}
+
+.content h3 {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+}
+
+footer h3 {
+  flex: 1;
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 100px;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+}
